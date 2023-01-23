@@ -1,0 +1,116 @@
+<!DOCTYPE html>   <!--URLはhttps://yuyu31.github.io/gakusyutai/-->
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>楽習隊（がくしゅうたい）</title>
+    <link rel="stylesheet" href="achievement-contents.css">
+    <link rel="stylesheet" href="https://stackedit.io/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="ysFG4KwAvFr_Szk64WwAOpDuSu5cj8oLhY_TS4G-Xqk" /> <!--Google Search Console-->
+</head>
+
+<header>
+    <div class="title">
+        <img src="./lasted_smalllogo.jpg" alt="楽習隊">
+        <h1>楽習隊<!--<br>エンタメを学問する--></h1>
+        <ul class="container"> <!--バナー表示。全部横並びでスクロールさせたい。-->
+          <li><a href="index.html">ホーム</a></li>
+          <li><a href="katsudo_rinen.html">活動理念</a></li>
+          <li><a href="syakaiteki_igi.html">社会的意義</a></li>
+          <li><a href="achievement.html">活動報告</a></li>
+          <li><a href="preparingpage.html">隊員紹介</a></li>
+          <li><a href="howtoenter.html">入隊方法</a></li>
+        </ul>
+    </div>
+
+    <!--
+    <nav>
+        <ul class="container"> 
+            <li><a href="index.html">ホーム</a></li>
+            <li><a href="katsudo_rinen.html">活動理念</a></li>
+            <li><a href="syakaiteki_igi.html">社会的意義</a></li>
+            <li><a href="achievement.html">活動報告</a></li>
+            <li><a href="preparingpage.html">隊員紹介</a></li>
+            <li><a href="howtoenter.html">入隊方法</a></li>
+        </ul>
+    </nav>
+    -->
+  
+</header>
+
+<body>
+    <div class="thumbnail">
+        <img src="./thumbnails/picture-of-snow.jpg" alt="雪の写真">
+        <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>【おきむ】広さ・大きさとは</title>
+          <link rel="stylesheet" href="https://stackedit.io/style.css" />
+        </head>
+    </div>    
+        
+        <div class="stackedit">
+          <div class="stackedit__html"><blockquote>
+        <p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
+        <p>※言葉や記号の意味・用法は、出典が書かれているもの以外はすべて、作成者が考えるものを使用しています。一般的によく使われるものを使うようにはしていますが、必ずしもすべての場合に対応していることは保証しません。予めご了承ください。</p>
+        </blockquote>
+        <h2 id="広さ・大きさとは">"広さ・大きさ"とは</h2>
+        <p>突然ですが、問題です。下の画像にある、二つの図形のうち、大きいのはどちらでしょう？</p>
+        <p><img src="https://drive.google.com/file/d/1Cm7Sl7LYbLJmaWkCxhvXDclDlQQTtKov/view?usp=share_link" alt="どっちが広い？"></p>
+        <p>"大きさ"なんて見た目では判別できないことがよくある。そこで小学生の頃から習っている「面積」が活躍する。＊＊＊</p>
+        <p>ところで、円の面積ってなんで(半径)×(半径)×πで求められるんでしょうか？</p>
+        <p>気になる方は、「円の面積　なぜ」などとお使いのブラウザで検索していただければ、たくさんのウェブサイトで紹介されていることでしょう。</p>
+        <p>同じように、三角形やひし形、台形、平行四辺形、おうぎ形など、その面積を求める公式がある図形は調べればたくさん出てきます。</p>
+        <p>そこで皆さんに問いたい。<strong>正方形の面積は、なぜ(辺の長さ)×(辺の長さ)で求められるのでしょうか</strong>。</p>
+        <p>おそらく、「そんなの当たり前じゃんか」と思われる方がほとんどではないでしょうか。気になってしまった小学4年生に「なんで・どうして」攻撃をされてしまった保護者の方は「とにかくこうなの！！！覚えて！！！」と叱ってしまった経験を覚えているかと思います。</p>
+        <p>結論から言いましょう。<strong>逆です。(辺の長さ)×(辺の長さ)を正方形の面積として定義していることが多い</strong>のです。<br>
+        実際のところ、大学数学においては、図形の面積はリーマン積分や重積分で定義されることが多いですが、この記事ではひとまず広さの概念が面積の定義によって数値化されていることを主軸に書いています。</p>
+        <p>ここからは、正方形の面積の定義について改めて考え直してみます。</p>
+        <h3 id="定義について">"定義"について</h3>
+        <p>定義とは、＊＊＊</p>
+        <p>数学を考えるうえで、定義はスタートラインを決めることと言えるでしょう。どんな用語であっても、数学上ではすべて数式や記号を用いて、その意味を定められています。</p>
+        <p>例えば、以下のように定義はされます。<br>
+        a(≠0), b, cを実数とする。実数変数xについての二次方程式とは、(同値変形することで)ax²+bx+c=0 とあらわされるxについての方程式のことである。</p>
+        <p>上の定義の中にも、実数や同値変形、方程式といった用語を急に使っていて、人によってはわけが分からないかもしれません。数学の教科書や参考書では、読者に求める知識レベルを最初に示しておいて、そのレベルの人なら大体知っているであろう言葉や用語の定義は飛ばされることが多いです。＊＊＊</p>
+        <p>そもそも定義は、同じ用語や概念であっても教科書や人によって異なる場合があります。例えば、数列の収束の定義について</p>
+        <p>高校数学では、多くの場合</p>
+        <ul>
+        <li>数列{a_n}がnを大きくすると、ある値Aに限りなく近づくとき、{a_n}はnを大きくするとAに収束するという。</li>
+        </ul>
+        <p>大学数学では、多くの場合</p>
+        <ul>
+        <li>数列{a_n}と、ある数Aについて、任意の正の数εに対して、ある自然数Nが存在し、N以上の任意の自然数nに対し、|a_n - A|&lt;εが成り立つとき、{a_n}はnを大きくするとAに収束するという。</li>
+        </ul>
+        <p>と明らかに違う定義の仕方をしていることがわかるでしょう。</p>
+        </div>
+        </div>
+</body>
+
+<!--フッター要素-->
+<footer id="footer"> 
+    <section class="primary">
+      <!--<p class="logo"><img src="./logo.png"></p>--> <!--ロゴはフッターに載せない-->
+      
+      <div class="navi-row">
+        <!--
+        <h2 class="navi">
+          Follow Me!
+        </h2>
+        -->
+        <h2 class="sns-navi">
+          <!--
+          <li><img src="2021 Twitter logo - white.png"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+          <li><img src="Instagram_Glyph_Gradient_RGB.png"><i class="fab fa-instagram"></i></a></li>
+          -->
+            <li>公式Twitter / Instagram : @gakushu_tai</li>
+            <li>Mail : gakushutai@gmail.com</li>
+        </h2>
+      </div>
+    </section>
+    <section class="secondary">
+      <p class="copyright">Copyright WEBSITE,2021, 楽習隊</p> <!--著作権-->
+    </section>
+</footer>
+</html>
+
