@@ -35,13 +35,14 @@ a:hover{ /*文字列の上にポインタを置いた場合をホバーという
   opacity: .5; /*ホバー状態で透明度50%*/
 }
 
-ul { /*複数の画像を横並びで表示*/
-  display: flex;
-}
-
-ul { /*複数の画像を横並びで表示*/
+.container ul { /*複数の画像を横並びで表示*/
 display: flex;
 list-style: none;
+}
+
+.sns-navi ul { /*複数の画像を横並びで表示*/
+  display: flex;
+  list-style: none;
 }
 
 li:nth-child(2) {
@@ -107,15 +108,19 @@ h1{
 #footer {
   position: relative;
   margin-top: 40px;
-  color: #fff;
+  color: white;
 }
 #footer a {
-  text-decoration: none;
-  color: #fff;
+  text-decoration: none; /*デフォルトの下線をなくす*/
+  color: white;
 }
+
+/* 重複あり
 #footer a:hover {
   text-decoration: underline;
 }
+*/
+
 #footer .primary {
   padding: 40px 20px;
   background-color:dimgray
