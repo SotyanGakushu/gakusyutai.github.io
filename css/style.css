@@ -59,7 +59,6 @@ li:nth-child(2) {
 
 .subtitle{ /*謹賀新年などのサブタイトル*/
     text-align: center;
-    color: red;
 }
 
 h1{
@@ -71,7 +70,7 @@ h1{
 }
 
 /*container全体にかかる*/
-.container{ /*container全体にかかる*/
+.container{ 
   font-size: 22px; /*18pxくらい*/
   display: flex;
   margin-top: 20px;
