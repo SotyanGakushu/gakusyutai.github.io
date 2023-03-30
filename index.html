@@ -1,26 +1,19 @@
-<!DOCTYPE html>   <!--URLはhttps://yuyu31.github.io/gakusyutai/-->
+<!DOCTYPE html>  
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
     <title>楽習隊（がくしゅうたい）</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style1.css">
     <meta name="google-site-verification" content="ysFG4KwAvFr_Szk64WwAOpDuSu5cj8oLhY_TS4G-Xqk" /> <!--Google Search Console-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> <!--CDNによりjQueryというJavaScriptライブラリを読み込み-->
 </head>
 
-<header>
-    <div class="title">
-      <a href="index.html"><img src="./lasted_smalllogo.jpg" alt="楽習隊"></a>
-        <h1><a href="index.html">楽習隊</a><!--<br>エンタメを学問する--></h1>
-        <ul class="container"> <!--バナー表示。全部横並びでスクロールさせたい。-->
-          <li><a href="index.html">ホーム</a></li>
-          <li><a href="katsudo_rinen.html">活動理念</a></li>
-          <li><a href="syakaiteki_igi.html">社会的意義</a></li>
-          <li><a href="achievement.html">活動報告</a></li>
-          <li><a href="preparingpage.html">隊員紹介</a></li>
-          <li><a href="howtoenter.html">入隊方法</a></li>
-        </ul>
-    </div>
-</header>
+<!--インクルード（共通化）したheaderを読み込む-->
+<script src="./js/header.js"></script>
+<script src="./js/footer.js"></script>
+
+
+<script>include_header(); // 関数を実行しheader.htmlを読み込む</script>
 
 <body>
     <div class="content">
@@ -73,45 +66,8 @@
     </div>
 </body>
 
-<!--フッター要素-->
-<footer id="footer"> 
-    <section class="primary">
-      <!--<p class="logo"><img src="./logo.png"></p>--> <!--ロゴはフッターに載せない-->
-      
-      <div class="navi-row">
-        <!--
-        <h2 class="navi">
-          Follow Me!
-        </h2>
-        -->
-        <h2 class="sns-navi">
-          <!--
-          <li><img src="2021 Twitter logo - white.png"><i class="fab fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-          <li><img src="Instagram_Glyph_Gradient_RGB.png"><i class="fab fa-instagram"></i></a></li>
-          -->
-          <!--0129byおきむ:Twitterのアイコンとリンク-->
-            
-            <!--(20230223 おきむ)↓Twitterアカウント凍結によりリンク変更, インスタロゴ追加↓-->
-            <!--<a href="https://twitter.com/gakushu_tai" target="_blank"><img src="./Twitter social icons - circle - blue.png" alt="Twitter_楽習隊"></a>-->
-            
-            <a href="https://twitter.com/gakushutai" target="_blank"><img src="./Twitter social icons - circle - blue.png" alt="Twitter_楽習隊"></a>
-            <li>Twitter : <a href="https://twitter.com/gakushutai">@gakushutai</a></li>
-                <br>
-          
-            <a href="https://www.instagram.com/gakushu_tai/" target="_blank"><img src="./Instagram_Glyph_Gradient.png" alt="Instagram_楽習隊"></a>
-            <li>Instagram : <a href="https://www.instagram.com/gakushu_tai/">@gakushu_tai</a></li>
-                <br>
-            <img src="./e-mail.png" alt="eメール">
-            <li>E-mail : gakushutai@gmail.com</li>
-        </h2>
+<script>include_footer(); // 関数を実行しfooter.htmlを読み込む</script>
 
-      </div>
-    </section>
-    <section class="secondary">
-      <p class="copyright">Copyright WEBSITE,2021, 楽習隊</p> <!--著作権-->
-    </section>
-</footer>
 </html>
 
 
